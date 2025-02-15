@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlavourMap</title>
+    <link rel="stylesheet" href="login.css">
+    <script src="flavour.js"></script>
+</head>
+<body>
+  <header>
+    <div class="container-fluid">
+    <div class="row">
+      <nav class="navbar navbar-expand-lg" style="background-color:dodgerblue; position: fixed; z-index: 1;">
+          <div class="container-fluid">
+            <a class="navbar-brand" style="color: aliceblue; margin-left: 2em;" href="#"><h3><strong>FlavourMap</strong></h3></a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon bg-light ml-auto"></span>
+            </button>
+            <div class="collapse navbar-collapse" style="color: aliceblue;" id="navbarTogglerDemo02">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <a class="nav-link active" style="color: aliceblue;" aria-current="page" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" style="color: aliceblue;" href="support.html">Support</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Filter</a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Price</a>
+                    <a class="dropdown-item" href="#">Veg</a>
+                    <a class="dropdown-item" href="#">Non-veg</a>
+                    <div class="dropdown-divider"></div>
+                  </div>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" style="color: aliceblue; background-color:darkgreen;" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+        </div>
+        </div>
+        </header>
+          <section class="support">
+            <div class="container-fluid">
+                <div class="row">
+                    <h3 id="hello" style="margin-top: 10em;"></h3>
+                </div>
+            </div>
+          </section>
+          <footer style="text-align: center;height: 100px; background-color: rgb(37, 34, 34); padding-top: 2em;">
+            <div class="container-fluid">
+                <div class="row">
+                    <form class="chat">
+                        <input type="text" id="inp" placeholder="Enter your message" size="80px">
+                        <button onclick="hi()" id="send">Send</button>
+                        
+                    </form>
+                </div>
+            </div>
+          </footer>
+
+          <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</body>
+</html>

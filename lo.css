@@ -1,0 +1,22 @@
+#fr
+{
+    margin-top: 8em;
+    margin-left: 8em;
+    background-color: rgb(126, 170, 216);
+}
+.bg
+{
+    background: linear-gradient(to top right, #3333cc 0%, #ffffcc 100%);
+    height: 50em;
+}
+.reg
+{
+    width: 37.5em;
+    height: 28.5em;
+    background-color: hsl(237, 23%, 84%);
+    padding-top: 5em;
+    text-align: center;
+    color: aliceblue;
+    font-style: italic;
+    
+}
